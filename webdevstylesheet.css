@@ -1,12 +1,13 @@
 h1{
-	color:rgb(75, 0, 0);	
+	color:rgb(0, 85, 85);	
 	font-size:50px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Big Shoulders Display', cursive;
 	}
 	
 	p{
 	color:azure;
 	font-size:25px;
+	font-family: 'Montserrat', sans-serif;
 	}	
 	
 	body{
@@ -16,13 +17,53 @@ h1{
     
 	}
     .owl{
-    height:1000px;
+    height:840px;
     background-image: url("owl.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     }
+	.skyrim{
+		height:400px;
+		background-image: url("skyrim.jpg");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: 50px;
+		transition: .5s all ease-in-out;
+	}
+	
+	#bergerSec{
+		height:400px;
+		background-image: url("berger.jpg");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		transition: .5s all ease-in-out;
+	}
+	#bergerSec:hover{
+		background-color: darkgrey;
+		opacity: .5;
+	}
+	.bergerTextContainer{
+		text-align: center;
+		z-index: 100;
+		opacity: 0;
+		height:400px;
+		transition: .5s all ease-in-out;
+	}
+	.bergerTextContainer:hover{
+		opacity: 1;
+	}
+	.bergerText{
+		font-size: 100px;
+		padding-top: 100px;
+		color: black;
+	}
+
 	
 	
 	#Intro{
@@ -52,17 +93,18 @@ h1{
 		padding: 0;
         border-top: 0px;
         border-bottom: 0px;
-		background-color: darkred;
+		background-color: darkcyan;
 		width:500px;
 		overflow: hidden;
 		position:sticky;
 		top: 0;
 		width:100%;
-		
+		z-index: 101;
 	}
 	
 	.navitem {
 	float: left;
+	font-family: 'Montserrat', sans-serif;
 	
 	text-align: center;
 
@@ -71,7 +113,7 @@ h1{
 	.navitem a {
 	display:block;
 	padding: 8px 16px;
-	color: black;
+	color: white;
 	text-decoration: none;
 	}
 	
@@ -81,17 +123,20 @@ h1{
 	
 	
 	.navitem a.active{
-	background-color: black;
-	color: darkred;
-	transition: .5s all ease-in-out;
+	background-color: white;
+	color: darkcyan;
+	
 	}
 	
 	.navitem a:hover:not(.active){
-	background-color: black;
-	color: darkred;
+	background-color: white;
+	color: darkcyan;
 	
 	}
 	.navitem a:hover{
+        transition: .5s all ease-in-out;
+    }
+	.navitem a:not(:hover){
         transition: .5s all ease-in-out;
     }
 	#main {
