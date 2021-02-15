@@ -1,3 +1,5 @@
+
+
 h1{
 	color:rgb(0, 85, 85);	
 	font-size:50px;
@@ -24,6 +26,25 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     }
+	.arrown{
+		height:100px;
+		width:25%;
+		background-size: 50%;
+		position:relative;
+		top:650px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-image: url("down.png");
+		transition: all .55s ease-in-out;
+	}
+	.arrown:hover{
+		background-size: 52%;
+	}
+
+		/* .arrown:hover{
+			animation-iteration-count:infinite;
+			animation: arrowAnimate 7s 20s 1;
+		} */
 	.skyrim{
 		height:400px;
 		background-image: url("skyrim.jpg");

@@ -20,7 +20,9 @@
 </head>
 <center>
 
-<div class="owl"></div>
+<div class="owl">
+      <a href="#navbar"><div id="arrownID" class="arrown"></div></a>
+</div>
 
 <ul id="navbar"> 
 	<li class="navitem"><a href="#bergerSec">Berger</a></li>
@@ -34,6 +36,9 @@
 <div class="BegText">
 <p id="Intro">
 	Welcome to Manav's class site for NYU Web Dev 2021. 
+</p>
+<p>
+      Select an assignment along the navigation bar to view, or scroll down through the list
 </p>
 </div>
 
@@ -52,6 +57,19 @@ height: 1000px;
 
 
 </div>
+
+<script>
+var windowHeight = window.innerHeight;
+
+function arrowPlace(){
+      windowHeight = window.innerHeight;
+    document.getElementById("arrownID").top = (windowHeight*.9);
+
+    console.log("bruh " + document.getElementById("arrownID").top);
+}
+
+window.addEventListener('resize', arrowPlace);
+</script>
 
 </body>
 
