@@ -85,6 +85,36 @@ h1{
 		color: black;
 	}
 
+
+	#readingSec{
+		height:400px;
+		background-image: url(connor.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		transition: .5s all ease-in-out;
+	}
+	#readingSec:hover{
+		background-color: darkgrey;
+		opacity: .5;
+	}
+	.readingTextContainer{
+		text-align: center;
+		z-index: 100;
+		opacity: 0;
+		height:400px;
+		transition: .5s all ease-in-out;
+	}
+	.readingTextContainer:hover{
+		opacity: 1;
+	}
+	.readingText{
+		font-size: 100px;
+		padding-top: 100px;
+		color: black;
+	}
+
 	
 	
 	#Intro{

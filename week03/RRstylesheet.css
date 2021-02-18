@@ -1,0 +1,38 @@
+#entry1{
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    margin: 30px;
+    width:500px;
+    position:absolute;
+    left: 50%;
+    top:0;
+    
+}
+#entry2{
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    margin: 100px;
+    width: 500px;
+    position: absolute;
+    left:100px;
+}
+html{
+    background-color: aquamarine;
+}
+.img1{
+    background-image: url(detroit.png);
+    height: 480px;
+    width: 480px;
+    position: relative;
+    margin-top:60px;
+    left: 15%;
+}
+.img2{
+    background-image: url(spec.jpg);
+    position: absolute;
+    top: 680px;
+    left: 800px;
+    height: 480px;
+    width: 480px;
+    z-index: -1;
+}
