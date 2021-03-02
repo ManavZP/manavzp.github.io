@@ -1,0 +1,171 @@
+
+body{
+    background-image: url(ramen.png);
+    background-size: 200px;
+    background-attachment:fixed;
+    background-repeat: initial;
+    background-blend-mode:color-burn;
+}
+
+mark{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: purple;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 70px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: purple;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 70px;
+    padding: 10px;
+}
+.cover{
+    transition: .5s all ease-in-out;
+}
+.cover:hover{
+    transform: scale(1.25);
+    overflow: hidden;
+}
+.movies{
+    display:flex;
+    justify-content: center;
+}
+#showman{
+    background-image: url(showman.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#killbill{
+    background-image: url(killbill.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#grudge{
+    background-image: url(grudge.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#getout{
+    background-image: url(getout.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.books{
+    display:flex;
+    justify-content: center;
+}
+#kafka{
+    background-image: url(kafka.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#song{
+    background-image: url(song.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#it{
+    background-image: url(it.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#merchant{
+    background-image: url(merchant.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.music{
+    display:flex;
+    justify-content: center;
+}
+#love{
+    background-image: url(love.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#starboy{
+    background-image: url(starboy.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#am{
+    background-image: url(am.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#more{
+    background-image: url(more.jpg);
+    height: 375px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
