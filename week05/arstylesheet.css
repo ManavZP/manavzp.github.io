@@ -1,0 +1,102 @@
+html{
+    background-color: black;
+}
+p{
+    color: darkred;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    resize: none;
+    z-index: -10;
+}
+#textIntro{
+    resize:none;
+    overflow: hidden;
+    table-layout: fixed;
+}
+#example{
+    height:400px;
+    width: 600px;
+    background-image: url(images/example.png);
+    background-size:contain;
+    margin: 30px;
+    margin-top: 0;
+}
+
+#doll{
+    background-image: url(images/doll.jpg);
+    height:200px;
+    width: 300px;
+    background-size: cover;
+    margin: 30px;
+    transition: all .55s ease-in-out;
+    /* position: absolute;
+    margin-left: 200px; */
+}
+
+h1{
+    color: darkred;
+    text-align: center;
+    font-family:'Big Shoulders Display', cursive;
+    font-size: 60px;
+}
+.main{
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+#wireframe{
+    /* position:absolute; */
+    height: 200px;
+    width: 200px;
+    background-color: darkred;
+    margin: 30px;
+    /* left:800px; */
+    transition: all .55s ease-in-out;
+    overflow: hidden;
+}
+#wireframe:hover{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(190, 0, 0);
+}
+#wireframeImage{
+    height: 400px;
+    width: 900px;
+    background-image: url(images/wireframe.png);
+    background-size:cover;
+}
+#outlink{
+    margin: 30px;
+    /* position:absolute; */
+    height: 200px;
+    width: 200px;
+    background-color: darkred;
+    /* left:800px; */
+    transition: all .55s ease-in-out;
+}
+#outlink:hover{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(190, 0, 0);
+}
+
+#doll:hover{
+    opacity: 40%;
+}
+
+/* @keyframes colorchange {
+    from {
+      background-color: darkred;
+    }
+  
+    to {
+      background-color: red;
+    }
+  }
+  
+  div {
+    animation-duration: 0.1s;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  } */
