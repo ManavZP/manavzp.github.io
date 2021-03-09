@@ -84,6 +84,26 @@ h1{
     opacity: 40%;
 }
 
+#face{
+    background-image: url(https://d1v7jayx2s9clc.cloudfront.net/user/pages/dollie-clones/large.jpg);
+    height:300px;
+    width: 225px;
+    display:inline-block;
+    background-size:cover;
+    margin:30px;
+    transition: all .55s ease-in-out;
+}
+#mirror{
+    background-image: url(https://d1v7jayx2s9clc.cloudfront.net/user/pages/dollie-clones/qcamframe.jpg);
+    height:300px;
+    width: 225px;
+    display:inline-block;
+    background-size:cover;
+    margin:30px;
+    transition: all .55s ease-in-out;
+}
+
+
 /* @keyframes colorchange {
     from {
       background-color: darkred;
