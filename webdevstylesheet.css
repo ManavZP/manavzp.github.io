@@ -144,6 +144,36 @@ h1{
 		padding-top: 100px;
 		color: black;
 	}
+
+	#dollSec{
+		height:400px;
+		background-image: url(week05/images/doll.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		/* background-repeat: no-repeat; */
+		background-size:contain;
+		background-blend-mode: color-dodge;
+		transition: .5s all ease-in-out;
+	}
+	#dollSec:hover{
+		background-color: darkgrey;
+		opacity: .5;
+	}
+	.dollTextContainer{
+		text-align: center;
+		z-index: 100;
+		opacity: 0;
+		height:400px;
+		transition: .5s all ease-in-out;
+	}
+	.dollTextContainer:hover{
+		opacity: 1;
+	}
+	.dollText{
+		font-size: 100px;
+		padding-top: 100px;
+		color: black;
+	}
 	
 	
 	#Intro{
