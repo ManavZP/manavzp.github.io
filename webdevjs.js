@@ -11,3 +11,4 @@ $(function() {
     });
 });
 
+// document.getElementById("owl").style.clip

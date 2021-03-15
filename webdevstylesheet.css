@@ -13,19 +13,59 @@ h1{
 	}	
 	
 	body{
-	background-image: url(Wallpaper.jpg);
-    background-attachment: fixed;
+	 background-image: url(Wallpaper.jpg);
+     background-attachment: fixed; 
+	background-color: black;
     margin:0px;
-    
+	width: 100%;
+	height: 100%;
+	/* animation: pulse 5s infinite; */
 	}
-    .owl{
+	@keyframes pulse {
+		0% {
+		  background-color: #001F3F;
+		}
+		50% {
+		  background-color: #00718d;
+		}
+		100%{
+			background-color: #001F3F;
+		}
+	  }
+
+    #owl{
     height:840px;
+	/* opacity: 0.01; */
     background-image: url("owl.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	/* transition: all .55s ease-in-out;		
+	perspective: 5.5cm;
+	animation: nudge 5s infinite;
+	clip-path: circle(100px at 300px); */
     }
+	/* #owl:hover{
+		clip-path: circle(100px at 1020px 100px);
+		opacity: 1;
+	} */
+	@keyframes nudge { /*animation for the transformation moving side to side*/
+		0%, 100% {
+		  transform: translate(0, 0);
+		}
+		50% {
+		  transform: translate(200px, 0);
+		}
+		80% {
+		  transform: translate(-200px, 0);
+		}
+	  }
+	  
+	  
+
+	 
+	  
 	.arrown{
 		height:100px;
 		width:25%;
