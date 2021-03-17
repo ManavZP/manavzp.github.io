@@ -2,9 +2,25 @@
 //     $('#backgroundImage').css("background-image", "url(bg2.gif)");
 // });
 
-
-
-
+var stage = 0;
+var bong = new Audio('ding.mp3')
+var counter = 0;
+function ding(which){
+    var symbol = document.getElementById(which);
+    console.log(symbol.style.backgroundImage);
+    if(symbol.style.backgroundImage === "url(\"symbol.png\")"){
+        counter++;
+        bong.play();
+        
+        symbol.style.backgroundImage = "url(" + "symbolRed.png" + ")";
+    }
+    
+    if(counter === 5 && stage<1){
+        document.getElementById("check").style.display = "flex"
+        document.getElementById("unicorn").src="satan.png"
+        stage = 1;
+    }
+}
 
 function changeImage() {
     var img = document.getElementById("backgroundImage");
