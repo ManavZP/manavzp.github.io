@@ -14,7 +14,6 @@ function ding(which){
         
         symbol.style.backgroundImage = "url(" + "symbolRed.png" + ")";
     }
-    
     if(counter === 5 && stage<1){
         document.getElementById("check").style.display = "flex"
         document.getElementById("unicorn").src="satan.png"
@@ -22,7 +21,42 @@ function ding(which){
     }
 }
 
+function popup(){
+    if(stage === 1){
+        var person = prompt("code:", "");
+    if (person === "1038") {
+        stage = 2;
+    } else {
+        window.alert("-error-")
+    }
+    }
+    
+    
+    
+}
+
+function checkCurse(){
+    console.log(document.getElementById("drag"));
+    var img = document.getElementById("backgroundImage");
+    var button = document.getElementById("codeInput");
+    if(stage >= 1 && img.style.backgroundImage==="url(\"bg4.gif\")"){
+        document.getElementById("cursed").style.display = "flex";
+    }else if(stage >= 1 && img.style.backgroundImage==="url(\"bg5.gif\")"){
+        button.style.display = "inline-block";
+        document.getElementById("cursed").style.display = "none";
+    }else if(stage >= 2 && img.style.backgroundImage==="url(\"bg.gif\")"){
+        // document.getElementById("drag").style.display = "flex";
+        
+    }
+    else{
+        document.getElementById("cursed").style.display = "none";
+        button.style.display = "none";
+        // document.getElementById("drag").style.display = "none";
+    }
+}
+
 function changeImage() {
+    console.log(document.getElementById("drag"))
     var img = document.getElementById("backgroundImage");
     var bottomText = document.getElementById("bottom");
     if(img.style.backgroundImage==="url(\"bg.gif\")"){
@@ -42,19 +76,15 @@ function changeImage() {
     }
 }
 
-//drag unicorn
+//drag dragon
+// console.log(document.getElementById("drag"))
 
-// dragElement(document.getElementById("unicorn"));
+// dragElement(document.getElementById("drag"));
 
 // function dragElement(elmnt) {
 //   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-//   if (document.getElementById(elmnt.id + "header")) {
-//     // if present, the header is where you move the DIV from:
-//     document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-//   } else {
-//     // otherwise, move the DIV from anywhere inside the DIV:
-//     elmnt.onmousedown = dragMouseDown;
-//   }
+
+//   elmnt.onmousedown = dragMouseDown;
 
 //   function dragMouseDown(e) {
 //     e = e || window.event;
@@ -77,6 +107,7 @@ function changeImage() {
 //     pos4 = e.clientY;
 //     // set the element's new position:
 //     elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+//     console.log(pos2)
 //     elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
 //   }
 

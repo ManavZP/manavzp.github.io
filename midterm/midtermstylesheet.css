@@ -6,6 +6,36 @@
     background-attachment: fixed;
     transition: .5s all ease-in-out;
 }
+#codeInput{
+    background-color:rgb(82, 0, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    position: absolute;
+    border-radius: 8px;
+    left: 1300px;
+    font-size: 16px;
+    transition: .5s all ease-in-out;
+}
+#codeInput:hover{
+    background-color:rgb(63, 0, 71);
+}
+#cursed{
+    font-size: 50px;
+    display: none;
+    text-decoration: none;
+}
+#drag{
+    margin-top: 100px;
+    position: absolute;
+    
+}
+
+
+
 h1{
     font-size:50px;
     font-family:'Big Shoulders Display', cursive;
@@ -64,9 +94,9 @@ h1{
     left: 750px;
     margin-top: 100px;
 }
-#icon1:hover{
+/* #icon1:hover{
     display: none;
-}
+} */
 #icon2{
     /* background-image: url(symbol.png); */
     height: 100px;
@@ -78,9 +108,9 @@ h1{
     transition: .5s all ease-in-out;
     overflow: hidden;
 }
-#icon2:hover{
+/* #icon2:hover{
     display: none;
-}
+} */
 #bottom:hover > #icon2{
     opacity: 75%;
     left: 950px;
@@ -97,9 +127,9 @@ h1{
     transition: .5s all ease-in-out;
     overflow: hidden;
 }
-#icon3:hover{
+/* #icon3:hover{
     display: none;
-}
+} */
 #bottom:hover > #icon3{
     opacity: 75%;
     left: 550px;
@@ -116,9 +146,9 @@ h1{
     transition: .5s all ease-in-out;
     overflow: hidden;
 }
-#icon4:hover{
+/* #icon4:hover{
     display: none;
-}
+} */
 #bottom:hover > #icon4{
     opacity: 75%;
     left: 950px;
@@ -135,9 +165,9 @@ h1{
     transition: .5s all ease-in-out;
     overflow: hidden;
 }
-#icon5:hover{
+/* #icon5:hover{
     display: none;
-}
+} */
 #bottom:hover > #icon5{
     opacity: 75%;
     left: 550px;
