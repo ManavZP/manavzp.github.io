@@ -1,3 +1,39 @@
+
+
+
+#warning{
+    display: none;
+}@media screen and (max-width: 500px){
+    #warning{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position:absolute;
+        background-color: wheat;
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 100px;
+        z-index: 101;
+        scroll-behavior:smooth;
+    }
+    html{
+        overflow: hidden;
+    }
+}
+@media screen and (max-height: 500px){
+    #warning{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position:absolute;
+        background-color: wheat;
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 100px;
+        z-index: 101;
+    }
+    html{
+        overflow: hidden;
+    }
+}
 #backgroundImage{
     /* background-image: url(bg.gif); */
     background-position: center;
@@ -7,7 +43,7 @@
     transition: .5s all ease-in-out;
 }
 #codeInput{
-    background-color:rgb(82, 0, 0);
+    background-color:rgb(63, 0, 71);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -16,24 +52,40 @@
     /* display: inline-block; */
     position: absolute;
     border-radius: 8px;
-    left: 1300px;
+    left: 75vw;
     font-size: 16px;
     transition: .5s all ease-in-out;
 }
 #codeInput:hover{
-    background-color:rgb(63, 0, 71);
+    cursor: pointer;
+    background-color:rgb(82, 0, 0);
 }
 #cursed{
     font-size: 50px;
     display: none;
     text-decoration: none;
-}
-#drag{
-    margin-top: 100px;
-    position: absolute;
-    
+    color: purple;
 }
 
+
+#drag{
+    position: absolute;
+    z-index: 100;
+}
+#dragCool{
+    position: absolute;
+    left: 35vw;
+}
+#dragDen{
+    overflow: hidden;
+    margin-top: 900px;
+    margin-left: 300px;
+    position: absolute;
+    border: 20px solid;
+    border-color: darkolivegreen;
+    border-radius: 20px;
+    display: flex;
+}
 
 
 h1{
@@ -91,7 +143,8 @@ h1{
 }
 #bottom:hover > #icon1{
     opacity: 75%;
-    left: 750px;
+    /* left: 750px; */
+    left:45vw;
     margin-top: 100px;
 }
 /* #icon1:hover{
@@ -113,8 +166,9 @@ h1{
 } */
 #bottom:hover > #icon2{
     opacity: 75%;
-    left: 950px;
-    margin-top: 500px;
+    /* left: 950px; */
+    left: 65vw;
+    margin-top: 520px;
 }
 #icon3{
     /* background-image: url(symbol.png); */
@@ -132,8 +186,8 @@ h1{
 } */
 #bottom:hover > #icon3{
     opacity: 75%;
-    left: 550px;
-    margin-top: 500px;
+    left: 25vw;
+    margin-top: 520px;
 }
 #icon4{
     /* background-image: url(symbol.png); */
@@ -151,7 +205,7 @@ h1{
 } */
 #bottom:hover > #icon4{
     opacity: 75%;
-    left: 950px;
+    left: 70vw;
     margin-top: 250px;
 }
 #icon5{
@@ -170,7 +224,7 @@ h1{
 } */
 #bottom:hover > #icon5{
     opacity: 75%;
-    left: 550px;
+    left: 20vw;
     margin-top: 250px;
 }
 #check{
@@ -184,6 +238,168 @@ h1{
 }
 #bottom:hover > #check{
     opacity: 100%;
-    left: 700px;
+    left: 42vw;
     margin-top: 250px;
+}
+
+#textIntro{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin:auto;
+}
+#normal{
+    margin: 30px;
+    padding: 10px;
+    align-items: stretch;
+    line-height: 100px;
+    display: flex;
+    height:auto;
+    width:auto;
+    background-color: cornflowerblue;
+    color:navy;
+    border: 10px solid;
+    border-color:mediumblue;
+    border-radius: 20px;
+}
+.workInside{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin:auto;
+}
+#work1{
+    margin: 30px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: 50px;
+    position:absolute;
+    height:auto;
+    width:auto;
+    background-color: cornflowerblue;
+    color:navy;
+    border: 10px solid;
+    border-color:mediumblue;
+    border-radius: 20px;
+}
+#work2{
+    margin: 30px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: 50px;
+    position:absolute;
+    height:auto;
+    width:auto;
+    background-color: cornflowerblue;
+    color:navy;
+    border: 10px solid;
+    border-color:mediumblue;
+    border-radius: 20px;
+}
+#work3{
+    margin: 30px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: 50px;
+    position:absolute;
+    height:auto;
+    width:auto;
+    background-color: cornflowerblue;
+    color:navy;
+    border: 10px solid;
+    border-color:mediumblue;
+    border-radius: 20px;
+}
+#work4{
+    margin: 30px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: 50px;
+    position:absolute;
+    height:auto;
+    width:auto;
+    background-color: cornflowerblue;
+    color:navy;
+    border: 10px solid;
+    border-color:mediumblue;
+    border-radius: 20px;
+}
+#work5{
+    margin: 30px;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    align-items: stretch;
+    line-height: 50px;
+    position:absolute;
+    height:auto;
+    width:auto;
+    background-color: cornflowerblue;
+    color:navy;
+    border: 10px solid;
+    border-color:mediumblue;
+    border-radius: 20px;
+}
+#alg{
+    text-align: left;
+    color:rebeccapurple;
+
+}
+#minion{
+    z-index: 99;
+    transition: .5s all ease-in-out;
+}
+#minion:hover{
+    content: url("minedit.png");
+}
+.displayImage{
+    border: 10px solid;
+    border-color:black;
+    margin-bottom: 20px;
+}
+
+
+
+/*FOR SECRET PAGE OOOOOH SPOOKY*/
+
+#secretBackground{
+    animation: haunting 5s infinite;
+}
+@keyframes haunting {
+    0% {
+      background-color:rgb(82, 0, 0);
+    }
+    50% {
+      background-color:rgb(63, 0, 71);
+    }
+    100%{
+        background-color:rgb(82, 0, 0);
+    }
+  }
+  #secretWork{
+    margin: 30px;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    align-items: stretch;
+    line-height: 50px;
+    position:absolute;
+    height:auto;
+    width:auto;
+    background-color: rgb(85, 3, 3);
+    color:white;
+    border: 10px solid;
+    border-color:black;
+    border-radius: 20px;
+}
+.goBack{
+    text-decoration: none;
+    color:black;
+    transition: .5s all ease-in-out;
+}
+.goBack:hover{
+    color:blanchedalmond;
 }
