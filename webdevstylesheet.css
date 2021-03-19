@@ -215,6 +215,36 @@ h1{
 		color: black;
 	}
 	
+
+	#midSec{
+		height:400px;
+		background-image: url(midterm/bg.gif);
+		background-attachment: fixed;
+		background-position: center;
+		/* background-repeat: no-repeat; */
+		background-size:contain;
+		background-blend-mode: color-dodge;
+		transition: .5s all ease-in-out;
+	}
+	#midSec:hover{
+		background-color: darkgrey;
+		opacity: .5;
+	}
+	.midTextContainer{
+		text-align: center;
+		z-index: 100;
+		opacity: 0;
+		height:400px;
+		transition: .5s all ease-in-out;
+	}
+	.midTextContainer:hover{
+		opacity: 1;
+	}
+	.midText{
+		font-size: 100px;
+		padding-top: 100px;
+		color: black;
+	}
 	
 	#Intro{
 	font-size: 30px;
