@@ -92,6 +92,7 @@ function checkCurse(){
     }else if(bg === "url(\"bg4.gif\")"){
         document.getElementById("drag").style.display = "none"; 
         document.getElementById("work3").style.display = "none";
+        document.getElementById("textIntro").innerHTML = "Welcome to Manav's Portfolio! Click the Unicorn to navigate through the various catagories of work. There is nothing strange about this page."
         if(stage === 0){
             document.getElementById("cursed").style.display = "none";
         }else if(stage === 1){
@@ -99,6 +100,7 @@ function checkCurse(){
         }
 
     }else if(bg === "url(\"bg5.gif\")"){
+        document.getElementById("textIntro").innerHTML = "Welcome to Manav's Portfolio! Click the Unicorn to navigate through the various catagories of work. There is nothing strange about this site."
         document.getElementById("work4").style.display = "flex";
         document.getElementById("cursed").style.display = "none";
         if(stage === 0){
