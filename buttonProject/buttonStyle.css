@@ -1,0 +1,29 @@
+html{
+    background-color: aquamarine;
+}
+
+
+#mainButton{
+    padding: 6vw;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: teal;
+    background-color:maroon;
+    filter: drop-shadow(20px 10px 4px #292929);
+    font-size: 35px;
+    margin-top: 150px;
+    font-family: 'Montserrat', sans-serif;
+    color:pink;
+    transition:  background-color .1s, color .5s, filter .1s ease-in-out;
+    transition-timing-function: ease-in-out;
+
+
+}
+
+
+#mainButton:active{
+    background-color:pink;
+    color:maroon;
+    filter:none;
+
+}
