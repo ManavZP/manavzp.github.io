@@ -18,7 +18,8 @@ function disco(){
         buttonMain.innerHTML = "DISCO TIME!!";
         buttonMain.id = "newButton";
         theBackground.id="newBackground";
-        setTimeout(stopMusic,25000);  
+        setTimeout(stopMusic,25000); 
+        numClicks = 0; 
     }
 
 
