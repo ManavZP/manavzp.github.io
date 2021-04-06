@@ -278,6 +278,36 @@ h1{
 		color: black;
 	}
 
+	#mimSec{
+		height:400px;
+		background-image: url(week09/toxic3.png);
+		background-attachment: fixed;
+		background-position: center;
+		/* background-repeat: no-repeat; */
+		background-size:contain;
+		background-blend-mode: color-dodge;
+		transition: .5s all ease-in-out;
+	}
+	#mimSec:hover{
+		background-color: darkgrey;
+		opacity: .5;
+	}
+	.mimTextContainer{
+		text-align: center;
+		z-index: 100;
+		opacity: 0;
+		height:400px;
+		transition: .5s all ease-in-out;
+	}
+	.mimTextContainer:hover{
+		opacity: 1;
+	}
+	.mimText{
+		font-size: 100px;
+		padding-top: 100px;
+		color: black;
+	}
+
 
 
 	#Intro{
