@@ -1,45 +1,57 @@
 #background{
-    background-color: rgb(158, 116, 52);
+  background-image: url("Room.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.computer {
+  margin: auto;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(44, 44, 44);
+  width: 550px;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+
 }
 .screen {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(90, 90, 90);
-    width: 50vw;
-    height: 35vw;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  .screen > #question {
-    background-color: #f1f1f1;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    padding: 20px;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(90, 90, 90);
+  width: 500px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
 
-  .bruh{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(90, 90, 90);
+.screen > #question {
+  background-color: #f1f1f1;
+  margin:10px;
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
 
-  }
-  .bruh > .answers {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    transition: all .4s ease-in-out;
-  }
-  .answers:hover{
-      background-color: cornsilk;
-      cursor: pointer;
-  }
+
+.bruh{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(90, 90, 90);
+
+}
+.bruh > .answers {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  transition: all .4s ease-in-out;
+}
