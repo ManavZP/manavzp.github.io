@@ -1,4 +1,7 @@
 
+var spooky = new Audio('music.mp3');
+
+
 $(document).ready(function(){
     var gameState = "begin";
 
@@ -10,6 +13,7 @@ $(document).ready(function(){
     $('#answerA').click(function(){
         if(gameState === "begin"){ //question: ready to play? answer: yes
             alert("Great!");
+            spooky.play();
             gameState = "room1";
             updateScreen();
         }else if(gameState === "room1"){//question: scared of dark? answer: yes
@@ -85,67 +89,93 @@ $(document).ready(function(){
 
     function updateScreen(){
         if(gameState === "room1"){
-            $('#question').text("Are you afraid of the dark?");
+            // $('#question').text(); <- this was removed and replaced by the shuffle letters function for all the following 
+            $('#question').shuffleLetters({
+                "text": "Are you afraid of the dark?"
+            });
+            
             $('#answerA').text("Yes");
             $('#answerB').text("No");
             
         }else if(gameState === "roomDark"){
             $('#background').css('background-image','url(Dark.png)'); //jQuery
-            $('#question').text("It's hard to see... is someone in the room?");
+            $('#question').shuffleLetters({
+                "text": "It's hard to see... is someone in the room?"
+            });
             $('#answerA').text("Yes");
             $('#answerB').text("No");
         }
         else if(gameState === "bedGhost"){
             $('#background').css('background-image','url(Dark.png)'); //jQuery
-            $('#question').text("A friend has arrived....");
+            $('#question').shuffleLetters({
+                "text": "A friend has arrived...."
+            });
             $('#answerA').text("'Who are you?!'");
             $('#answerB').text("Stay quiet..");
         }
         //TO BE COMPLETED
         else if(gameState === "badend1"){
             $('#background').css('background-image','url(Dark.png)'); //image incomplete
-            $('#question').text("A friend has arrived....");
+            $('#question').shuffleLetters({
+                "text": "A friend has arrived...."
+            });
         }
         else if(gameState === "goodend1"){
             $('#background').css('background-image','url(Dark.png)'); //image incomplete
-            $('#question').text("A friend has arrived....");
+            $('#question').shuffleLetters({
+                "text": "A friend has arrived...."
+            });
             $(this).hide();
         }
         else if(gameState === "spiderQ"){
             $('#background').css('background-image','url(Dark.png)'); //image incomplete
-            $('#question').text("A friend has arrived....");
+            $('#question').shuffleLetters({
+                "text": "A friend has arrived...."
+            });
             $('#answerA').text("'Who are you?!'");
             $('#answerB').text("Stay quiet..");
         }
         else if(gameState === "spiders"){
             $('#background').css('background-image','url(Dark.png)'); //image incomplete
-            $('#question').text("A friend has arrived....");
+            $('#question').shuffleLetters({
+                "text": "A friend has arrived...."
+            });
             $('#answerA').text("'Who are you?!'");
             $('#answerB').text("Stay quiet..");
         }
         else if(gameState === "boring"){
             $('#background').css('background-image','url(Dark.png)'); //image incomplete
-            $('#question').text("A friend has arrived....");
+            $('#question').shuffleLetters({
+                "text": "A friend has arrived...."
+            });
         }
         else if(gameState === "window"){
             $('#background').css('background-image','url(Dark.png)'); //image incomplete
-            $('#question').text("A friend has arrived....");
+            $('#question').shuffleLetters({
+                "text": "A friend has arrived...."
+            });
             $('#answerA').text("'Who are you?!'");
             $('#answerB').text("Stay quiet..");
         }
         else if(gameState === "door"){
             $('#background').css('background-image','url(Dark.png)'); //image incomplete
-            $('#question').text("A friend has arrived....");
+            $('#question').shuffleLetters({
+                "text": "A friend has arrived...."
+            });
             $('#answerA').text("'Who are you?!'");
             $('#answerB').text("Stay quiet..");
         }
         else if(gameState === "goodend2"){
             $('#background').css('background-image','url(Dark.png)'); //image incomplete
-            $('#question').text("A friend has arrived....");
+            $('#question').shuffleLetters({
+                "text": "A friend has arrived...."
+            });
         }
         else if(gameState === "badend2"){
             $('#background').css('background-image','url(Dark.png)'); //image incomplete
-            $('#question').text("A friend has arrived....");
+            $('#question').shuffleLetters({
+                "text": "A friend has arrived...."
+            });
         }
 
     }
