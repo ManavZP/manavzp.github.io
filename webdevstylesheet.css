@@ -309,6 +309,36 @@ h1{
 	}
 
 
+	#scarySec{
+		height:400px;
+		background-image: url(ruby/spookypic.png);
+		background-attachment: fixed;
+		background-position: center;
+		/* background-repeat: no-repeat; */
+		background-size:contain;
+		background-blend-mode: color-dodge;
+		transition: .5s all ease-in-out;
+	}
+	#scarySec:hover{
+		background-color: darkgrey;
+		opacity: .5;
+	}
+	.scaryTextContainer{
+		text-align: center;
+		z-index: 100;
+		opacity: 0;
+		height:400px;
+		transition: .5s all ease-in-out;
+	}
+	.scaryTextContainer:hover{
+		opacity: 1;
+	}
+	.scaryText{
+		font-size: 100px;
+		padding-top: 100px;
+		color: black;
+	}
+
 
 	#Intro{
 	font-size: 30px;
