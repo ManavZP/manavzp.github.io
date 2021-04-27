@@ -340,6 +340,37 @@ h1{
 	}
 
 
+	#propSec{
+		height:400px;
+		background-image: url(slideDeckFinal/3.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		/* background-repeat: no-repeat; */
+		background-size:contain;
+		background-blend-mode: color-dodge;
+		transition: .5s all ease-in-out;
+	}
+	#propSec:hover{
+		background-color: darkgrey;
+		opacity: .5;
+	}
+	.propTextContainer{
+		text-align: center;
+		z-index: 100;
+		opacity: 0;
+		height:400px;
+		transition: .5s all ease-in-out;
+	}
+	.propTextContainer:hover{
+		opacity: 1;
+	}
+	.propText{
+		font-size: 100px;
+		padding-top: 100px;
+		color: black;
+	}
+
+
 	#Intro{
 	font-size: 30px;
 	}
