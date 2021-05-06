@@ -33,7 +33,7 @@ a{
         position:absolute;
         background-color: wheat;
         font-family: 'Big Shoulders Display', cursive;
-        font-size: 100px;
+        font-size: 60px;
         z-index: 101;
         scroll-behavior:smooth;
     }
