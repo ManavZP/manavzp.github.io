@@ -111,4 +111,5 @@ function logPosition() {
 
 function openTab(){
     window.open("mainPage.html", '_blank');
+    document.getElementById("name").id = "dragonsCode9982";
 }
