@@ -1,6 +1,15 @@
 var currentPage = "about"
 stage=0;
 
+window.onresize = snapTop();
+
+function snapTop(){
+    console.log(document.getElementById("warning").style.display);
+    if(document.getElementById("warning").style.display === "flex"){
+        window.scrollTo(0, 0);
+    }
+}
+
 function nextPage(){
 
     if(currentPage === "about"){
