@@ -23,6 +23,7 @@ a{
 }
 
 
+
 #warning{
     display: none;
 }@media screen and (max-width: 500px){
@@ -111,6 +112,10 @@ p{
 }
 
 a:hover{
+    color:darkred;
+    text-decoration: none;
+}
+a:focus{
     color:darkred;
     text-decoration: none;
 }
