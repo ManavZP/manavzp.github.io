@@ -16,13 +16,42 @@
 </div>
 <body>
 
-<div class="text-center"><h1>M A N A V ♠ S H A H</h1></div>
+<div class="text-center"><h1>M A N A V <a id="dragonSecret" onclick="openDragon()">♠</a> S H A H</h1></div>
+
+
 <div class="row">
-    <div class="col-sm-4"><a href="https://www.youtube.com/channel/UCxQ7OUHXtPupWLl-vfEeUsQ" target="_blank" class="keyNav"><p class="text-center">YouTube</p></a></div>
-    <div class="col-sm-4"><div class="text-center"><button type="button" class="btn" data-toggle="modal" data-target="#myModal">Resume</button></div></div>
-    <div class="col-sm-4"><a href="https://github.com/ManavZP" target="_blank" class="keyNav"><p class="text-center">GitHub</p></a></div>
-    
+    <div class="col-sm-4">
+        <a href="https://www.youtube.com/channel/UCxQ7OUHXtPupWLl-vfEeUsQ" target="_blank" class="keyNav">
+            <p class="text-center">YouTube</p>
+        </a>
+    </div>
+    <div class="col-sm-4">
+            <p onclick="goToPage('home')" class="keyNav">Home</p>
+    </div>
+    <div class="col-sm-4">
+        <a href="https://github.com/ManavZP" target="_blank" class="keyNav">
+            <p class="text-center">GitHub</p>
+        </a>
+    </div>   
 </div>
+<div class="row">
+    <div class="col-sm-4">
+            <p onclick="goToPage('design')" class="keyNav">Design</p>
+    </div>
+    <div class="col-sm-4">
+            <p onclick="goToPage('games')" class="keyNav">Games</p>
+    </div>
+    <div class="col-sm-4">
+            <p onclick="goToPage('secret')" class="keyNav">?????</p>
+    </div>   
+</div>
+
+<!-- <div class="col-sm-4">
+        <div class="text-center">
+            <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Resume</button>
+        </div>
+    </div> -->
+
 <div id="myModal" class="modal fade" role="dialog">
     <div class="modal-dialog modal-lg">
 
@@ -52,8 +81,7 @@
         </p>
         <p>I am an engineering and design student studying at NYU. My focus is on Artificial Intelligence and Game Development.</p>
         <p>I'm very passionate about storytelling and game design, and plan to find a career in this area!</p>
-        <p>I am the proud recipient of the Golden Duck Award for a game theory algorithm I wrote.</p>
-        <p>And I love cherry pepsi.</p>
+        <p>I am the proud recipient of the Golden Duck Award for a game theory algorithm I wrote, and I love Cherry Pepsi.</p>
         <p>My <a id="hidden" onclick="showHome();">home</a> town is South Pasadena, CA.</p>
     </div>
 </div>
@@ -71,12 +99,11 @@
          As far as other design projects, I started 3d modeling last year and am continuously growing my portfolio with each new design-focused class I take 
          for my degree.
        <br><br>
-          Finally, you can see the evolution of my video production skills on my YouTube channel, linked in the top left. I have also made some videos for clients who have uploaded 
+          Finally, you can see the evolution of my video production skills on my <a href="https://www.youtube.com/channel/UCxQ7OUHXtPupWLl-vfEeUsQ">YouTube channel</a>. I have also made some videos for clients who have uploaded 
           them to their own channel, which I no longer have access to.
           <br><br>
     <center>
       <h3>My Work:</h3>
-      <br><br>
       <div class="text-center"><button type="button" class="btn" data-toggle="modal" data-target="#myModal1">Business Card Samples</button></div>
        
          <div id="myModal1" class="modal fade" role="dialog">
@@ -98,7 +125,7 @@
                 </div>
             </div>
         </div>
-        <br>
+       
         <div class="text-center"><button type="button" class="btn" data-toggle="modal" data-target="#myModal2">Fortune Teller Pamphlet</button></div>
          <div id="myModal2" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
@@ -154,42 +181,52 @@
         </p>
         <br><br>
         <center>
-        <h2>MY GAMES</h2>
-        <br>
-        <h3>The Dog-Dog Trilogy</h3>
-        <br>
+            <!--test display-->  
+            <h2>MY GAMES</h2>
+            <br>
+            <h3>The Dog-Dog Trilogy</h3>
+            <p>
+                My gamemaking saga begins in high school, where I developed a game in Scratch called Dog-Dog's Adventures. It follows the 
+                story of Dog-Dog, the blue dog.
+                Shortly after that game, I created a sequel called Dog-Dog and the Revenge of the Mukakus. This text-based game coded in Python
+                greatly expanded the lore of Dog-Dog's Universe, and created deep and meaningful character arcs...sadly it was lost to the void 
+                when the school wiped our computers without telling us. Should I ever find a copy of it, it will be uploaded here.
+                Finally, the low-budget trequel (third sequel) to Dog-Dog's Adventures, Dog-Dog Visits Lucifer.
+                Cat-Cat's Adventure, a spinoff to the Dog-Dog series, is a enemy-swarm platformer with a high learning curve. It was coded in JavaScript
+            </p>
+                <div class="movies">
+                    <a href="https://scratch.mit.edu/projects/136594539/" target="_blank"><div id="showman" class="cover"></div></a>
+                    <a href="#"><div id="killbill" class="cover"></div></a>
+                    <a href="https://scratch.mit.edu/projects/311310242/" target="_blank"><div id="grudge" class="cover"></div></a>
+                    <a href="https://editor.p5js.org/not_manav/full/_-0CvY6TN" target="_blank"><div id="getout" class="cover"></div></a>
+                </div>
+                <br>
+                <h3>Game Jam Games</h3>
+                <p>
+                    For one of my Game Development classes, we had to create a new game every week based on a certain prompt or inspiration. We were given 
+                    one week for each game, and were allowed to use whatever game engine we wanted.
+                </p>
+                <div class="books">
+                    <a href="https://owlofaeons.itch.io/sky-skater" target="_blank"><div id="kafka" class="cover"></div></a>
+                    <a href="https://owlofaeons.itch.io/cows-life"><div id="song" class="cover"></div></a>
+                    <a href="https://owlofaeons.itch.io/music-bitventure"><div id="it" class="cover"> </div></a>
+                    <a href="#"><div id="merchant" class="cover"></div></a>
+                </div>
+                <br>
+                <h3>Other Games</h3>
+                <div class="music">
+                    <a href="https://scratch.mit.edu/projects/644915282"><div id="love" class="cover"></div></a>
+                    <a href="#"><div id="starboy" class="cover"></div></a>
+                    <a href="#"><div id="am" class="cover"></div></a>
+                    <a href="#"><div id="more" class="cover"></div></a>
+                </div>
+
+
+
+                <br>
+        <!--end of test display--> 
         <p style="text-align: left;">
-            My gamemaking saga begins in high school, where I developed a game in Scratch called Dog-Dog's Adventures. It follows the 
-            story of Dog-Dog, the blue dog.
-        </p>
-        <iframe src="https://scratch.mit.edu/projects/136594539/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-        <br>
-        <br>
-        <p style="text-align: left;">
-            Shortly after that game, I created a sequel called Dog-Dog and the Revenge of the Mukakus. This text-based game coded in Python
-            greatly expanded the lore of Dog-Dog's Universe, and created deep and meaningful character arcs...sadly it was lost to the void 
-            when the school wiped our computers without telling us. Should I ever find a copy of it, it will be uploaded here.
-        </p>
-        <br>
-        <br>
-        <p style="text-align: left;">
-            Finally, the low-budget trequel (third sequel) to Dog-Dog's Adventures, Dog-Dog Visits Lucifer. 
-        </p>
-        <iframe src="https://scratch.mit.edu/projects/311310242/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-        <br>
-        <br>
-        <p style="text-align: left;">
-            In between all this Dog-Dog nonsense, I created a task-focused space game where you, an astronaut, must constantly be repairing your ship.
-            I suggest playing until the end!
-        </p>
-        <br>
-        <br>
-        <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/159975283/?autostart=false" frameborder="0" allowfullscreen=""></iframe>
-        <br>
-        <br>
-        <p style="text-align: left;">
-            On my <a href="owlofaeons.itch.io">Itch.io</a> page, you can check out all my other games listed! I will highlight the highlights here, but there are many 
-            more to check out.
+            Check out my <a href="owlofaeons.itch.io">Itch.io</a> page for more!
         </p>
     </center>
         <div id="spawnedDragon" style="display: none;"> 
