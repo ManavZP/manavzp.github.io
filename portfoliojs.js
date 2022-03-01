@@ -96,7 +96,7 @@ function nextPage(){
 
 function askCode(){
     if(stage === 0 || stage === 1){
-        var answer = prompt("code:", "");
+        var answer = prompt("Enter the Code:", "");
     if (answer === "8172" && stage === 0) {
         stage = 1;
     } else if(answer === "9982" && stage === 1){
