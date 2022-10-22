@@ -5,12 +5,40 @@ stage=0;
 
 window.onresize = snapTop();
 
+
+
 function snapTop(){
     console.log(document.getElementById("warning").style.display);
     if(document.getElementById("warning").style.display === "flex"){
         window.scrollTo(0, 0);
     }
 }
+
+const showOnPx = 100;
+const backToTopButton = document.querySelector(".back-to-top")
+
+const scrollContainer = () => {
+  return document.documentElement || document.body;
+};
+
+document.addEventListener("scroll", () => {
+  if (scrollContainer().scrollTop > showOnPx) {
+    backToTopButton.classList.remove("hiddenTop")
+  } else {
+    backToTopButton.classList.add("hiddenTop")
+  }
+})
+
+const goToTop = () => {
+    document.body.scrollIntoView({
+        behavior: "smooth",
+      });
+  };
+
+
+  backToTopButton.addEventListener("click", goToTop)
+
+
 
 function goToPage(page){
     currentPage = page
@@ -96,7 +124,7 @@ function nextPage(){
 
 function askCode(){
     if(stage === 0 || stage === 1){
-        var answer = prompt("code:", "");
+        var answer = prompt("Enter the Code:", "");
     if (answer === "8172" && stage === 0) {
         stage = 1;
     } else if(answer === "9982" && stage === 1){
@@ -168,3 +196,4 @@ function openTab(){
     window.open("mainPage.html", '_blank');
     document.getElementById("name").id = "dragonsCode9982";
 }
+
