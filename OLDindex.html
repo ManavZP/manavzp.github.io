@@ -4,9 +4,6 @@
   <title>Manav's Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" 
-      type="image/png" 
-      href="tabIcon.png" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="portfoliocss.css">
   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Montserrat&display=swap" rel="stylesheet">
@@ -84,8 +81,9 @@
         </p>
         <p>I am an engineering and design student studying at NYU. My focus is on Artificial Intelligence and Game Development.</p>
         <p>I'm very passionate about storytelling and game design, and plan to find a career in this area!</p>
-        <p>I am the proud recipient of the Golden Duck Award for a game theory algorithm I wrote, and I love Cherry Pepsi.</p>
+        <p>I am the proud recipient of the Golden Duck Award for a game theory algorithm I wrote in High School.</p>
         <p>My <a id="hidden" onclick="showHome();">home</a> town is South Pasadena, CA.</p>
+        <p>And I love Cherry Pepsi.</p>
     </div>
 </div>
 </center>
@@ -93,17 +91,17 @@
 <div id="work2" style="display: none;">
     <div class="workInside">
      <h1>DESIGN</h1>
-     <p>I have lots of experience in digital design, and am still looking to expand my abilities. 
+     <p>I have lots of experience in digital design, and I'm still looking to expand my abilities. 
          I have been making my own websites since my freshman year of high school, and
          have multiple medals from winning regional web design competitions. 
          <br><br>
-         I have been designing UI for the same amount of time as I've been making websites, but only recently started taking official classes to learn 
+         I have been designing UI for the same amount of time as I've been making websites, and I recently started taking official classes to learn 
          graphic design and related skills.
-         As far as other design projects, I started 3d modeling last year and am continuously growing my portfolio with each new design-focused class I take 
+         As far as other design projects, I started 3d modeling last year and I am continuously growing my portfolio with each new design-focused class I take 
          for my degree.
        <br><br>
-          Finally, you can see the evolution of my video production skills on my <a href="https://www.youtube.com/channel/UCxQ7OUHXtPupWLl-vfEeUsQ">YouTube channel</a>. I have also made some videos for clients who have uploaded 
-          them to their own channel, which I no longer have access to.
+          Finally, you can see the evolution of my video production skills on my <a href="https://www.youtube.com/channel/UCxQ7OUHXtPupWLl-vfEeUsQ" target="_blank">YouTube channel</a>. I have also made some videos for clients who have uploaded 
+          them to their own channels, which I no longer have access to.
           <br><br>
     <center>
       <h3>My Work:</h3>
@@ -152,54 +150,72 @@
         <br><br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/_R1dzObGZxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <br><br>
-         <img width="640" height="480" src="kitchenModel.png">
+         <img width="770" height="480" src="kitchenModel.png">
          <br><br>
      </p>
     </div>
 </div>
 </center>
 </center>
+
 <center>
 <div id="work3" style="display: none;">
     <div class="workInside">   
-        <h1>GAMING</h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="#whyGaming" class="keyNav">
+                    <p class="text-center">Why Gaming?</p>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="#myGames">
+                    <p class="keyNav">Video Games</p>
+                </a>
+            </div> 
+            <div class="col-sm-4">
+                <a href="#boardGames">
+                    <p class="keyNav">Tabletop Games</p>
+                </a>
+            </div> 
+        </div>
+        <h1 id="whyGaming">WHY GAMING?</h1>
         <p>
             Games! I love gaming and all things gaming related. I have been playing games since I was young, my first real game being 
             Pokemon Leaf Green on the Nintendo Gameboy. Since then, my passion for games has only grown, extending into virtually every
-            genre there is. Horror, fantasy rpgs, rhythm games, strategy games, first person shooters, CCGs, the list goes on and on. 
+            genre there is; Horror, fantasy RPGs, rhythm games, strategy games, first person shooters, CCGs, the list goes on and on. 
         </p>
         <br><br>
         <p>
             Of course, I definitely have my favorites. Among those are Minecraft by Mojang, Subnautica by Unknown Worlds, Apex Legends by Respawn Entertainment, and 
-            League of Legends by Riot Games. But the creme of the crop for me, and the game that actually jumpstarted my interest in going into this industry was 
+            League of Legends by Riot Games. But the cream of the crop for me, and the game that actually jumpstarted my interest in going into this industry was 
             The Elder Scrolls V: Skyrim, by Bethesda. Without going on too long about why I love it so much, I will just say that the way it combined 
-            gameplay, game design, and storytelling to create one glorious free roam RPG was something I heavily admired. 
+            gameplay, game design, and storytelling to create one glorious free roam RPG was something I truly admired. 
         </p>
         <br>
         <br>
         <p>
-            Of course, Skyrim wasn't the first game to do this, and it certainly isn't the game to have done this best. However, it was the first game 
-            that I played that did that...and following that game, I became more and more intrigued with the idea of being able to invent a whole world,
+            Of course, Skyrim wasn't the first game to do these things, and it certainly isn't the game to have done these things best. However, it <i>was</i> the first game 
+            that <i>I played</i> that did these things...and following that game, I became more and more intrigued with the idea of being able to create a whole world,
             a whole universe, and then tell the story of that universe through something as immersive and interactive as a video game. And thus, I began to <a id="hidden" onclick="askCode();">code.</a>
         </p>
-        <br><br>
+        <br><br>   
         <center>
             <!--test display-->  
-            <h2>MY GAMES</h2>
+            <h2 id="myGames">VIDEO GAMES</h2>
             <br>
             <h3>The Dog-Dog Trilogy</h3>
             <p>
                 My gamemaking saga begins in high school, where I developed a game in Scratch called Dog-Dog's Adventures. It follows the 
                 story of Dog-Dog, the blue dog.
                 Shortly after that game, I created a sequel called Dog-Dog and the Revenge of the Mukakus. This text-based game coded in Python
-                greatly expanded the lore of Dog-Dog's Universe, and created deep and meaningful character arcs...sadly it was lost to the void 
-                when the school wiped our computers without telling us. Should I ever find a copy of it, it will be uploaded here.
-                Finally, the low-budget trequel (third sequel) to Dog-Dog's Adventures, Dog-Dog Visits Lucifer.
-                Cat-Cat's Adventure, a spinoff to the Dog-Dog series, is a enemy-swarm platformer with a high learning curve. It was coded in JavaScript
+                greatly expanded the lore of Dog-Dog's Universe, and created deep and meaningful character arcs...unfortunately, a package that
+                was used in the code has since grown outdated, and the code no longer works.
+                Finally, a year later, I developed the low-budget trequel (third sequel) to Dog-Dog's Adventures, Dog-Dog Visits Lucifer.
+                Cat-Cat's Adventure, a spinoff to the Dog-Dog series, is an enemy-swarm platformer with a high learning curve. It was coded in JavaScript
             </p>
                 <div class="movies">
                     <a href="https://scratch.mit.edu/projects/136594539/" target="_blank"><div id="showman" class="cover"></div></a>
-                    <a href="#"><div id="killbill" class="cover"></div></a>
+                    <a href="https://replit.com/@zagreus/Dog-Dog-2-The-Revenge-of-the-Mukakus?v=1" target="_blank"><div id="killbill" class="cover"></div></a>
                     <a href="https://scratch.mit.edu/projects/311310242/" target="_blank"><div id="grudge" class="cover"></div></a>
                     <a href="https://editor.p5js.org/not_manav/full/_-0CvY6TN" target="_blank"><div id="getout" class="cover"></div></a>
                 </div>
@@ -207,36 +223,76 @@
                 <h3>Game Jam Games</h3>
                 <p>
                     For one of my Game Development classes, we had to create a new game every week based on a certain prompt or inspiration. We were given 
-                    one week for each game, and were allowed to use whatever game engine we wanted.
+                    one week for each game, and were allowed to use whatever game engine we wanted. Click the covers to either be directed
+                    to the download page, or download the project zip directly.
                 </p>
                 <div class="books">
                     <a href="https://owlofaeons.itch.io/sky-skater" target="_blank"><div id="kafka" class="cover"></div></a>
-                    <a href="https://owlofaeons.itch.io/cows-life"><div id="song" class="cover"></div></a>
-                    <a href="https://owlofaeons.itch.io/music-bitventure"><div id="it" class="cover"> </div></a>
-                    <a href="#"><div id="merchant" class="cover"></div></a>
+                    <a href="https://owlofaeons.itch.io/cows-life" target="_blank"><div id="song" class="cover"></div></a>
+                    <a href="https://owlofaeons.itch.io/music-bitventure" target="_blank"><div id="it" class="cover"> </div></a>
+                    <a href="PerfectPortrait.zip" download><div id="merchant" class="cover"></div></a>
                 </div>
                 <br>
                 <h3>Other Games</h3>
                 <div class="music">
-                    <a href="https://scratch.mit.edu/projects/644915282"><div id="love" class="cover"></div></a>
-                    <a href="#"><div id="starboy" class="cover"></div></a>
+                    <a href="https://scratch.mit.edu/projects/644915282" target="_blank"><div id="love" class="cover"></div></a>
+                    <a href="https://tengkuhanashafikah.itch.io/the-gacha-ghost-hunting-squad" target="_blank"><div id="starboy" class="cover"></div></a>
                     <a href="#"><div id="am" class="cover"></div></a>
                     <a href="#"><div id="more" class="cover"></div></a>
                 </div>
-
-
-
                 <br>
         <!--end of test display--> 
         <p style="text-align: left;">
-            Check out my <a href="owlofaeons.itch.io">Itch.io</a> page for more!
+            Check out my <a href="https://owlofaeons.itch.io/">Itch.io</a> page for a more up-to-date list!
         </p>
+        <br>
+            <h2 id="boardGames">TABLETOP GAMES</h2>
+            <p>The digital is not the only medium I use to create interactive experiences...I also love making tabletop games!</p>
+            <p>
+                I started designing board games during a science project all the way back in 6th grade, and since then I have
+                gone far beyond just "roll the dice to move x spaces." Though I am getting more serious about this particular part
+                of my portfolio, these games are mostly all in the prototyping phase. However, I am currently planning an official
+                Kickstarter campaign and talking to potential publishers to release my latest endevour, Mythos (see below!) 
+            </p>
+            <h3>Mythos</h3>
+            <img width="200" height="300" src="MythosAnubis.png"><img width="200" height="300" src="MythosAmmit.png"><img width="200" height="300" src="MythosEmperor.png"><img width="200" height="300" src="MythosWrath.png">
+            <p style="text-align: left; margin-top: 1em;">Mythos is my most recent project, and I'm looking to go big with it. Up until now, all my tabletop games have been made as a hobby. With this game, I am planning a Kickstarter campaign so that I can break way into the 
+                tabletop industry. I made Mythos completely from scratch on my own, with some help from my family and friends for play testing and consulting.
+            </p>
+            <p style="text-align: left;">Mythos is a competitive, party-building card game where the player creates an army of deities and mythical
+                entities from religions and cultures from all around the world, and battle to see who can power up to victory.</p>
+              <p style="text-align: left;">Some of the origins include Indian, Mayan, and Egyptian Mythology, Western Astrology, Tarot, the Chinese Zodiac,
+                and more. The game focuses on gradually developing board states, and is designed to highly encourage setting up
+                deadly combos and planning your tactics. A special thing to note is that there is only ONE type of card in the deck: the
+                entities. Each of the 112 cards is a unique unit that you may summon into your party, and each one of those comes with their
+                own special abilities that are heavily inspired by their roles in the culture they are from. </p><p style="text-align: left;">With countless powerful deities,
+                trap cards, alternate win conditions, and table-turning abilities, no two games of Mythos will be the same...
+            </p>
+            <p>Mythos Website: Coming Soon</p>
+            <h3>Dark Frontier</h3>
+            <p>Cooperative spaceship alien survival game...with a twist. More info coming soon</p>
+            <h3>The Manav Game</h3>
+            <p>Competitive game featuring a mishmash of game mechanics, set in the Sobaverse. More info coming soon</p>
+            <h3>Wandering Titans</h3>
+            <p>Competitive battle game where titans from other realms are trapped on Earth, and must utilize monkeys, doctors, chicken soup, and more
+                to escape. More info coming soon</p>
+            <h3>Hatbeard's Legacy</h3>
+            <p>Cooperative AND competitive exploration game where players take on the roles of pirate captains to 
+                put together a crew of pirates, scholars, and adventurers to search for the fabled Hatbeard's Treasure...
+                and may discover other secrets along the way. More info coming soon</p>
+            <h3>Journeys</h3>
+            <p>Cooperative tabletop game where players becomes Vampires, Fairies, Cosmic Benders, and more, and
+                work together to explore the world and battle enemies. More info coming soon</p>
+
+
     </center>
         <div id="spawnedDragon" style="display: none;"> 
                 <img src="dragCool.png" width="1000px" height="500px" >
         </div>
     </div>
 </div>
+<button class="back-to-top hiddenTop">Back To Top</button>
+
 </center>
 <center>
 <div id="work4" style="display: none;">
