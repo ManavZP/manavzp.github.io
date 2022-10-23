@@ -47,24 +47,32 @@ function goToPage(page){
         document.getElementById("work2").style.display = "flex";
         document.getElementById("work3").style.display = "none";
         document.getElementById("work4").style.display = "none";
+        document.getElementById("work5").style.display = "none";
+
     }
     else if(currentPage === "games"){
         document.getElementById("work1").style.display = "none";
         document.getElementById("work2").style.display = "none";
         document.getElementById("work3").style.display = "flex";
         document.getElementById("work4").style.display = "none";
+        document.getElementById("work5").style.display = "none";
+
     }
     else if(currentPage === "home"){
         document.getElementById("work1").style.display = "flex";
         document.getElementById("work2").style.display = "none";
         document.getElementById("work3").style.display = "none";
         document.getElementById("work4").style.display = "none";
+        document.getElementById("work5").style.display = "none";
+
     }
     else if(currentPage === "secret"){
         document.getElementById("work1").style.display = "none";
         document.getElementById("work2").style.display = "none";
         document.getElementById("work3").style.display = "none";
         document.getElementById("work4").style.display = "flex";
+        document.getElementById("work5").style.display = "none";
+
         if(stage===0){
             console.log("CODE: 8172"); 
          }
@@ -76,7 +84,14 @@ function goToPage(page){
              document.getElementById("dragonCoords").innerHTML = "01110101 01110011 01100101 00100000 01110100 01101000 01100101 00100000 01100011 01101111 01101110 01110011 01101111 01101100 01100101 00100000 01110100 01101111 00100000 01100111 01110101 01101001 01100100 01100101 00100000 01110100 01101000 01100101 00100000 01100100 01110010 01100001 01100111 01101111 01101110 00100000 01101000 01101111 01101101 01100101"
 
         }
-    } 
+    }else if(currentPage === "otherPage"){
+        document.getElementById("work1").style.display = "none";
+        document.getElementById("work2").style.display = "none";
+        document.getElementById("work3").style.display = "none";
+        document.getElementById("work4").style.display = "none";
+        document.getElementById("work5").style.display = "flex";
+
+    }
 }
 
 function openDragon(){
@@ -88,37 +103,23 @@ function openDragon(){
 
 function nextPage(){
 
-    if(currentPage === "home"){
-        currentPage = "design"
-        document.getElementById("work1").style.display = "none";
-        document.getElementById("work2").style.display = "flex";
-        console.log(currentPage + " ");
-    }else if(currentPage === "design"){
-        currentPage = "games"
+    document.getElementById("work1").style.display = "none";
         document.getElementById("work2").style.display = "none";
-        document.getElementById("work3").style.display = "flex";
-        console.log(currentPage + " ");
-    }else if(currentPage === "games"){
-        currentPage = "secret"
         document.getElementById("work3").style.display = "none";
         document.getElementById("work4").style.display = "flex";
-        console.log(currentPage + " ");
+        document.getElementById("work5").style.display = "none";
+
         if(stage===0){
             console.log("CODE: 8172"); 
          }
-         if(stage === 1){
+        if(stage === 1){
              document.getElementById("secretSection").innerHTML = "01100011 01101100 01101001 01100011 01101011 00100000 01110100 01101000 01100101 00100000 01110011 01110000 01100001 01100100 01100101"
-         }if(stage === 2){
+        }
+        if(stage === 2){
              document.getElementById("spawnedDragon").style.display = "flex";
              document.getElementById("dragonCoords").innerHTML = "01110101 01110011 01100101 00100000 01110100 01101000 01100101 00100000 01100011 01101111 01101110 01110011 01101111 01101100 01100101 00100000 01110100 01101111 00100000 01100111 01110101 01101001 01100100 01100101 00100000 01110100 01101000 01100101 00100000 01100100 01110010 01100001 01100111 01101111 01101110 00100000 01101000 01101111 01101101 01100101"
 
-         }
-    }else if(currentPage === "secret"){
-        currentPage = "home"
-        document.getElementById("work4").style.display = "none";
-        document.getElementById("work1").style.display = "flex";
-    }
-
+        }
 }
 
 
