@@ -258,9 +258,26 @@ a:focus{
     border-radius: 20px;
     transition: .2s all ease-in-out;
 }
+#work5{
+    width:75%;
+    margin: 30px;
+    margin-left: 0px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: 30px;
+    height:auto;
+    background-color: rgb(92, 35, 35);
+    color:rgb(0, 0, 0);
+    border: 4px solid;
+    border-color:whitesmoke;
+    border-radius: 20px;
+    transition: .2s all ease-in-out;
+}
 
 
 /*test display*/
+/*HAVE TO CHANGE THE BACKGROUND SIZE WHEN PUTTING IN A COVER PHOTO*/
 
 .cover{
     transition: .5s all ease-in-out;
@@ -274,9 +291,9 @@ a:focus{
 #showman{
     background-image: url(dogdog1.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -284,9 +301,9 @@ a:focus{
 #killbill{
     background-image: url(dogdog2.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -294,9 +311,9 @@ a:focus{
 #grudge{
     background-image: url(dogdog3.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -304,20 +321,61 @@ a:focus{
 #getout{
     background-image: url(dogdog4.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#showman2{
+    background-image: url(gghsCover.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#killbill2{
+    background-image: url(manav_chibi_2.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#grudge2{
+    background-image: url(manav_chibi_2.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#getout2{
+    background-image: url(manav_chibi_2.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 #kafka{
     background-image: url(skateGame.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -325,9 +383,9 @@ a:focus{
 #song{
     background-image: url(cowGame.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -335,9 +393,9 @@ a:focus{
 #it{
     background-image: url(beatGame.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -345,9 +403,9 @@ a:focus{
 #merchant{
     background-image: url(Pp.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -356,45 +414,49 @@ a:focus{
 #love{
     background-image: url(astro.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 #starboy{
-    background-image: url(gghsCover.png);
+    background-image: url(naldscover.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 #am{
-    background-image: url(manav_chibi_2.png);
+    background-image: url(motcover.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #more{
     background-image: url(manav_chibi_2.png);
     height: 300px;
-    width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .movies{
+    display:flex;
+    justify-content: center;
+}
+.movies2{
     display:flex;
     justify-content: center;
 }
