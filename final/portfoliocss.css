@@ -58,21 +58,6 @@ a{
 
 #warning{
     display: none;
-}@media screen and (max-width: 500px){
-    #warning{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        position:absolute;
-        background-color: wheat;
-        font-family: 'Big Shoulders Display', cursive;
-        font-size: 60px;
-        z-index: 101;
-        scroll-behavior:smooth;
-    }
-    html{
-        overflow: hidden;
-    }
 }
 
 
@@ -467,4 +452,200 @@ a:focus{
 .music{
     display:flex;
     justify-content: center;
+}
+
+
+
+
+/*MOBILE INTEGRATION!!*/
+
+@media screen and (max-width: 1300px){
+    /*#warning{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position:absolute;
+        background-color: wheat;
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 60px;
+        z-index: 101;
+        scroll-behavior:smooth;
+    }
+    html{
+        overflow: hidden;
+    }*/
+    #showman{
+        background-image: url(dogdog1.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #killbill{
+        background-image: url(dogdog2.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #grudge{
+        background-image: url(dogdog3.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #getout{
+        background-image: url(dogdog4.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    #showman2{
+        background-image: url(gghsCover.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #killbill2{
+        background-image: url(manav_chibi_2.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #grudge2{
+        background-image: url(manav_chibi_2.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #getout2{
+        background-image: url(manav_chibi_2.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    #kafka{
+        background-image: url(skateGame.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #song{
+        background-image: url(cowGame.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #it{
+        background-image: url(beatGame.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #merchant{
+        background-image: url(Pp.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    #love{
+        background-image: url(astro.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #starboy{
+        background-image: url(naldscover.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #am{
+        background-image: url(motcover.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #more{
+        background-image: url(manav_chibi_2.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    
+    .movies{
+        display:block;
+        justify-content: center;
+    }
+    .movies2{
+        display:block;
+        justify-content: center;
+    }
+    .books{
+        display:block;
+        justify-content: center;
+    }
+    .music{
+        display:block;
+        justify-content: center;
+    }
+
+    #youtubeEmbed{
+        width: 20em;
+    }
+    #imgToResize{
+        width: 20em;
+        height: 12em;
+    }
+    
 }
