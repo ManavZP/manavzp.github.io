@@ -115,6 +115,7 @@ a{
 }
 #hidden{
     font-size: 20px;
+    cursor: pointer;
     color:rgb(184, 184, 184);
     transition: .2s all ease-in-out;
 
