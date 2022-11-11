@@ -115,7 +115,6 @@ a{
 }
 #hidden{
     font-size: 20px;
-    cursor: pointer;
     color:rgb(184, 184, 184);
     transition: .2s all ease-in-out;
 
@@ -326,13 +325,13 @@ a:focus{
     background-repeat: no-repeat;
 }
 #killbill2{
-    background-image: url(manav_chibi_2.png);
+    background-image: url(bridgeCover.png);
     height: 300px;
     width: 200px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 #grudge2{
@@ -522,7 +521,7 @@ a:focus{
         background-repeat: no-repeat;
     }
     #killbill2{
-        background-image: url(manav_chibi_2.png);
+        background-image: url(bridgeCover.png);
         height: 300px;
         margin-left: 20px;
         margin-right: 20px;
