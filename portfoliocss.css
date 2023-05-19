@@ -354,7 +354,7 @@ a:focus{
     background-repeat: no-repeat;
 }
 #grudge2{
-    background-image: url(manav_chibi_2.png);
+    background-image: url(scurryCover.png);
     height: 300px;
     width: 200px;
     margin-left: 20px;
@@ -442,10 +442,52 @@ a:focus{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#more{
+    background-image: url(manav_chibi_2.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-#more{
+#love2{
+    background-image: url(manav_chibi_2.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#starboy2{
+    background-image: url(manav_chibi_2.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#am2{
+    background-image: url(manav_chibi_2.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#more2{
     background-image: url(manav_chibi_2.png);
     height: 300px;
     width: 200px;
@@ -469,6 +511,10 @@ a:focus{
     justify-content: center;
 }
 .music{
+    display:flex;
+    justify-content: center;
+}
+.extra1{
     display:flex;
     justify-content: center;
 }
@@ -549,7 +595,7 @@ a:focus{
         background-repeat: no-repeat;
     }
     #grudge2{
-        background-image: url(manav_chibi_2.png);
+        background-image: url(scurryCover.png);
         height: 300px;
         margin-left: 20px;
         margin-right: 20px;
@@ -640,6 +686,45 @@ a:focus{
         background-size: contain;
         background-repeat: no-repeat;
     }
+    #love2{
+        background-image: url(manav_chibi_2.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #starboy2{
+        background-image: url(manav_chibi_2.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #am2{
+        background-image: url(manav_chibi_2.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #more2{
+        background-image: url(manav_chibi_2.png);
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+
 
     
     .movies{
@@ -655,6 +740,10 @@ a:focus{
         justify-content: center;
     }
     .music{
+        display:block;
+        justify-content: center;
+    }
+    .extra1{
         display:block;
         justify-content: center;
     }
