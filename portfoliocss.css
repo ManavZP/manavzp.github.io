@@ -7,6 +7,7 @@ html{
     bottom: 2rem;
     background-color: rgb(35, 35, 35);
     font-family:'Montserrat', sans-serif, cursive ;
+    border-radius: 5px;
     border:none;
     color: whitesmoke;
     opacity: 100%;
@@ -124,7 +125,7 @@ a{
 #hidden{
     font-size: 20px;
     cursor: pointer;
-    color:rgb(184, 184, 184);
+    color:rgb(216, 175, 209);
     transition: .2s all ease-in-out;
 
 }
@@ -156,6 +157,8 @@ a:focus{
     margin-top: 25px;
     transition: .5s all ease-in-out;
 } */
+
+
 #unicorn{
     transition: 1.2s all ease-in-out;
     margin-top:25px;
@@ -528,11 +531,42 @@ a:focus{
 }
 
 
-
+.fadeInOnLoadUP {
+    animation: fade-up 1s;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin:auto;
+    color: whitesmoke;
+    width:100%;
+}
+.fadeInOnLoadDOWN {
+    animation: fade-down 1s;
+}
+@keyframes fade-down{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+@keyframes fade-up{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
 
 /*MOBILE INTEGRATION!!*/
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 767.5px){
     /*#warning{
         width: 100%;
         height: 100%;
@@ -547,6 +581,20 @@ a:focus{
     html{
         overflow: hidden;
     }*/
+    #menuYoutube{
+        display: none;
+    }
+    #menuGithub{
+        display: none;
+    }
+    h1, h2{
+        font-size: 65px;
+    }
+    p{
+        font-size: 18px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     #showman{
         background-image: url(dogdog1.png);
         height: 300px;

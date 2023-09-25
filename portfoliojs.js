@@ -1,5 +1,6 @@
 var currentPage = "home"
 stage=0;
+var w = window.innerWidth
 
 
 
@@ -56,6 +57,7 @@ function goToPage(page){
         document.getElementById("work3").style.display = "flex";
         document.getElementById("work4").style.display = "none";
         document.getElementById("work5").style.display = "none";
+
 
     }
     else if(currentPage === "home"){
@@ -173,8 +175,10 @@ function askCode(){
     }
 }
 function showHome(){
-    if(stage === 2){
+    if(stage >= 2){
         window.alert("Dragon's Home: 800-820, 300-320");
+    }else{
+        window.alert("You can click on pink text?");
     }
 }
 
@@ -234,3 +238,9 @@ function openTab(){
     document.getElementById("name").id = "dragonsCode9982";
 }
 
+if(w > 767.5){
+    window.sr = ScrollReveal();
+    sr.reveal(".ttgSec", {reset: true});
+    sr.reveal(".vgSec", {reset: true});
+    sr.reveal(".mmgSec", {reset: true});
+}
