@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Manav's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="manav_chibi_2.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="portfoliocss.css">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+  <script type="text/javascript" src="portfoliojs.js" defer></script>
+  
+</head>
+<div id="warning">
+    Mobile not integrated yet
+</div>
+<body>
+
+<div class="fadeInOnLoadDOWN" class="text-center" onclick="goToPage('home')" style="cursor: pointer;"><h1>M A N A V | S H A H</h1></div>
+
+
+<div class="row">
+    <div class="col-sm-4">
+            <p onclick="goToPage('design')" class="keyNav" style="cursor: pointer;">Design</p>
+    </div>
+    <div class="col-sm-4">
+            <p onclick="goToPage('games')" class="keyNav" style="cursor: pointer;">Games</p>
+    </div>
+    <div class="col-sm-4">
+            <p onclick="goToPage('otherPage')" class="keyNav" style="cursor: pointer;">Cool Stuff</p>
+    </div>   
+</div>
+
+<!-- <div class="col-sm-4">
+        <div class="text-center">
+            <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Resume</button>
+        </div>
+    </div> -->
+
+<center><img src="owlAloneWhite.png" id="unicorn" style="height: 150px;"  onclick="nextPage();"></center>
+<center>
+<div id="work1" style="display: flex;">
+    <div class="fadeInOnLoadUP" class="workInside" >
+        <h1>ABOUT ME</h1>
+        <a id="dragonSecret" onclick="openDragon()">♠</a> 
+        <p class="my-element">
+            Welcome to the Owl's Nest. The name's Manav!
+        </p>
+        <p>I am an <b>engineering and design</b> student studying at NYU. My focus of study is <b>immersive game design and development.</b></p>
+        <p>I'm very passionate about storytelling and game design, and I love working on narrative design or systems design.</p>
+        <p>I am the recipient of the <b>Golden Duck Award</b> for a game theory algorithm I wrote.</p>
+        <p>My <a id="hidden" onclick="showHome();">home</a> town is South Pasadena, CA.</p>
+        <p>And I love Cherry Pepsi.</p>
+        <br>
+        <!-- <div class="text-center"><button type="button" class="btn" data-toggle="modal" data-target="#myModal0">View my Resume</button></div> -->
+
+        <p><a href="Manav_Shah_Resume.pdf">Click to view Resume PDF</a></p>
+        <br>
+        <h3>Other Links</h3>
+        <a href="https://www.linkedin.com/in/manavzp/" target="_blank" class="keyNav">
+            <p class="text-center" style="color: darkorange;">LinkedIn</p>
+        </a>
+        <a href="https://github.com/ManavZP" target="_blank" class="keyNav">
+            <p class="text-center" style="color: darkorange;">Github</p>
+        </a>
+        <a href="https://www.youtube.com/@Owlofaeons" target="_blank" class="keyNav">
+            <p class="text-center" style="color: darkorange;">YouTube</p>
+        </a>
+        <a href="https://owlofaeons.itch.io/" target="_blank" class="keyNav">
+            <p class="text-center" style="color: darkorange;">Itch.io</p>
+        </a>
+
+<center>
+    <br>
+        <h3>Contact me</h3>
+        <p>manavshahmds@gmail.com</p>
+        <p>626 278 4086</p>
+</center>
+    </div>
+</div>
+</center>
+<center>
+<div id="work2" style="display: none;">
+    <div class="fadeInOnLoadUP" class="workInside">
+     <h1>DESIGN</h1>
+    
+      <h3>My Work:</h3>
+
+        <p><a href="manavBusinessCardSamples.pdf" target="_blank">Manav's Business Card Variations</a></p>
+        <p><a href="businesscards.pdf" target="_blank">Stock Business Cards</a></p>
+        <p><a href="DMUY1123C_fa20_ManavShah_Cleromancy3.pdf" target="_blank">Cleromancy Pamphlet</a></p>
+        <br><br>
+
+        <iframe width="247.5" height="535.92" src="https://xd.adobe.com/embed/f03dc9c3-2ae8-4a82-8831-6a2553283757-a56e/?fullscreen" frameborder="0" allowfullscreen></iframe>
+        <p>An interactive UX prototype I made in Adobe XD for a project called Bounty Blitz, under Two Bit Circus <br>
+            To see more of this project, click <a href="bb.html" target="_blank">here</a></p>
+        <br>
+        <iframe id="youtubeEmbed" width="560" height="315" src="https://www.youtube.com/embed/_R1dzObGZxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>A 3D Model of Octane's Butterfly knife, from Apex Legends</p> 
+        <br><br>
+         <img id="imgToResize" width="770" height="480" src="kitchenModel.png">
+         <p>A 3D Model scene of a cozy kitchen located inside a tree stump ^.^</p>
+         <br><br>
+     </p>
+     <p>I have lots of experience in <b>digital design</b>, and I'm still looking to expand my abilities. 
+        I have been making my own websites since my freshman year of high school, and
+        have multiple medals from winning regional web design competitions. This website was coded from scratch using html, css, and js.
+       <br><br>
+       When it comes to graphic design and UI/UX, I'm still constantly developing my skills.
+       <br><br>
+       I'm adept at <b>3D Modeling</b>, and am particularly interested in learning how to sculpt and
+       model realistic humans and creatures. 
+      <br><br>
+         Finally, you can see the evolution of my <b>video production</b> skills on my <a href="https://www.youtube.com/channel/UCxQ7OUHXtPupWLl-vfEeUsQ" target="_blank">YouTube channel</a>. I have also made some videos for clients who have uploaded 
+         them to their own channels, videos which I no longer have access to. 
+         <br><br>
+         <center><h4>To see some more video projects I have made (or videos OF projects I've made), view my gallery <a href="videoGallery.html" target="_blank">here.</a></h4></center>
+         <br><br>
+   <center>
+    </div>
+</div>
+</center>
+</center>
+
+<center>
+<div id="work3" style="display: none;">
+    <div class="fadeInOnLoadUP" class="workInside">   
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="#myGames">
+                    <p class="keyNav">Video Games</p>
+                </a>
+            </div> 
+            <div class="col-sm-4">
+                <a href="#boardGames">
+                    <p class="keyNav">Tabletop Games</p>
+                </a>
+            </div> 
+            <div class="col-sm-4">
+                <a href="#mmg" class="keyNav">
+                    <p class="text-center">Mixed Media Games</p>
+                </a>
+            </div>
+        </div>
+      
+        <center>
+            <!--test display-->  
+            <div class="vgSec">
+            <h2 id="myGames">VIDEO GAMES</h2>
+            <h3>Featured Games</h3>
+            
+            <div class="movies2">
+                <a href="https://tengkuhanashafikah.itch.io/the-gacha-ghost-hunting-squad" target="_blank"><div id="showman2" class="cover"></div></a>
+                <a href="https://mega.nz/file/mywljYaY#xGWiA3GPgq9vAmGUjsGGfdZYNMvP5jRUgLNiF8qfFsM" target="_blank"><div id="killbill2" class="cover"></div></a>
+                <a href="https://lauralach.github.io/VR_Landing_Page/" target="_blank"><div id="grudge2" class="cover"></div></a>
+                <a href="#" target="_blank"><div id="getout2" class="cover"></div></a>
+            </div>
+            <br>
+            <h3>The Dog-Dog Trilogy (and Spin-off)</h3>
+                <div class="movies">
+                    <a href="https://scratch.mit.edu/projects/136594539/" target="_blank"><div id="showman" class="cover"></div></a>
+                    <a href="https://replit.com/@zagreus/Dog-Dog-2-The-Revenge-of-the-Mukakus?v=1" target="_blank"><div id="killbill" class="cover"></div></a>
+                    <a href="https://scratch.mit.edu/projects/311310242/" target="_blank"><div id="grudge" class="cover"></div></a>
+                    <a href="https://editor.p5js.org/not_manav/full/_-0CvY6TN" target="_blank"><div id="getout" class="cover"></div></a>
+                </div>
+                <br>
+                <h3>Game Jam Games</h3>
+                <div class="books">
+                    <a href="https://owlofaeons.itch.io/sky-skater" target="_blank"><div id="kafka" class="cover"></div></a>
+                    <a href="https://owlofaeons.itch.io/cows-life" target="_blank"><div id="song" class="cover"></div></a>
+                    <a href="https://owlofaeons.itch.io/music-bitventure" target="_blank"><div id="it" class="cover"> </div></a>
+                    <a href="https://mega.nz/file/T7AVkLrY#l0zaBwlEuvCUWEnWQQsWUdZo374mwYXQyhnpEHuMiSs" target="_blank"><div id="merchant" class="cover"></div></a>
+                </div>
+                <br>
+                <h3>Other Games</h3>
+                <div class="music">
+                    <a href="https://scratch.mit.edu/projects/644915282" target="_blank"><div id="love" class="cover"></div></a>
+                    <a href="Not a LoL Dating Simulator.html" target="_blank"><div id="starboy" class="cover"></div></a>
+                    <a href="milkortequila.html" target="_blank"><div id="am" class="cover"></div></a>
+                    <a href="#"><div id="more" class="cover"></div></a>
+                </div>
+                <div class="extra1">
+                    <a href="#" target="_blank"><div id="love2" class="cover"></div></a>
+                    <a href="#" target="_blank"><div id="starboy2" class="cover"></div></a>
+                    <a href="#" target="_blank"><div id="am2" class="cover"></div></a>
+                    <a href="#"><div id="more2" class="cover"></div></a>
+                </div>
+                
+                <br>
+        <!--end of test display--> 
+        <p style="text-align: left;">
+            Check out my <a href="https://owlofaeons.itch.io/">Itch.io</a> page!
+        </p>
+        </div>
+        <br>
+        <div class="ttgSec">
+            <h2 id="boardGames">TABLETOP GAMES</h2>
+            <h3>Mythos <i>(Kickstarter)</i></h3>
+            <p>Two primordial titans, the breadth of Earth's pantheon, and a prophecy. Who will rise as the ultimate immortal? Website coming soon.</p>
+            <br>
+            <h3>Dark Frontier</h3>
+            <p>Cooperative spaceship alien survival game...with a twist. <a href="darkfrontier.html" target="_blank"><i>Learn More!</i></a></p>
+            <br>
+            <h3>The Manav Game</h3>
+            <p>Competitive game featuring a mishmash of game mechanics, set in the Sobaverse. More info coming soon.</p>
+            <br>
+            <h3>Wandering Titans</h3>
+            <p>Competitive battle game where titans from other realms are trapped on Earth, and must utilize monkeys, doctors, chicken soup, and more
+                to escape. More info coming soon.</p>
+                <br>
+                <h3>Hatbeard's Legacy</h3>
+            <p>Cooperative AND competitive exploration game where players take on the roles of pirate captains to 
+                put together a crew of pirates, scholars, and adventurers to search for the fabled Hatbeard's Treasure...
+                and may discover other secrets along the way. More info coming soon.</p>
+                <br>
+                <h3>Journeys</h3>
+            <p>Cooperative tabletop game where players becomes Vampires, Fairies, Cosmic Benders, and more, and
+                work together to explore the world and battle enemies. More info coming soon.</p>
+        <br>
+        </div>
+        <br>
+        <div class="mmgSec">
+            <h2 id="mmg">MIXED MEDIA GAMES</h2>
+            <h3>Hedera's Helix</h3>
+            <p>A brand new <b>tabletop roleplaying game system</b> set in a world of duality, a world where magic and technology are entwined. With a robust <b>custom ability system</b>, players have the ultimate freedom to truly craft any kind of character they like.</p>
+            <p>In playtests, I've seen cyborg-ent-witch doctors, humanoid gunslinging ducks, humanoid cats who use stage magic, and much more.</p>
+            <p>Hedera's Helix is also my biggest <b>world building project!</b></p>
+            <br>
+            <h3>The Soba Files</h3>
+            <p>An <b>ARG</b> that turns you into an agent for the Secret Soba Defense Agency (SSDA), set on a mission to take down the Fox Agency of Doing Evil (FADE).</p>
+            <p>Start your mission today, from my <b>business card!</b></p>
+            <br>
+            <h3>The Portfolio Puzzle</h3>
+            <p>Oh come now, of course my portfolio itself IS a game. You'll have to figure out how to start it on your own though...</p>
+        </div>
+
+
+    </center>
+        <div id="spawnedDragon" style="display: none;"> 
+                <img src="dragCool.png" width="1000px" height="500px" >
+        </div>
+    </div>
+</div>
+<button class="back-to-top hiddenTop">Back To Top</button>
+
+</center>
+<center>
+<div id="work4" style="display: none;">
+    <div class="fadeInOnLoadUP" class="workInside">   
+        <h1 id="locked">LOCKED</h1>
+        <p>
+            01100011 01101000 01100101 01100011 01101011 00100000 01110100 01101000 01100101 00100000 01100011 01101111 01101110 01110011 01101111 01101100 01100101 
+        </p>
+        <p id="secretSection">
+
+        </p>
+        <p id="dragonCoords">
+
+        </p>
+        <p id="libraryCode">
+
+        </p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><div id="finalStage" class="text-center" style="display: none; "><img style="height: 300px;" src="manav_chibi_2.png"></div></a>
+    </div>
+</div>
+</center>
+
+
+<center>
+    <div id="work5" style="display: none;">
+        <div class="fadeInOnLoadUP" class="workInside">   
+            <h1>COOL STUFF</h1>
+            <p>There's a lot more to Manav than just games and design!</p>
+
+            <h2>Demigod Entertainment</h2>
+            <img style="margin-bottom:10px;" width="200px" height="200px" src="dgelogo.svg">
+            <p><b>Demigod Entertainment</b> is the company I plan to start, in order to
+                be able to publish and release all of my projects under my own name.
+                MYTHOS, my card game, will be <b>Demigod Entertainment's</b> first title!
+            </p>
+            <br>
+            <br>
+
+            <h2>Dungeons and Dragons</h2>
+            <p>
+                I am also a <b>tabletop rpg dungeon master</b>. I've made one full homebrew campaign in DnD 5e, as well as various mini-adventures in various other TTRPG systems. Recently, I've started only using my own, hand-crafted system, <b>Hedera's Helix.</b>
+                <br><br><a>The Curse of Ahi'a'make:</a> After shipwrecking on a seemingly deserted island, our group of adventurers are met with an unexpected welcome. 
+                An old dispute between gods, a chance to uncover sinister secrets, and an island trapped in time. What could be better?
+                <br><br><a>Starcrossed Gunners:</a> In space, no one can hear you team...up with your friends to explore an endless myriad
+                of planets. <i>(Coming Soon)</i>
+            </p>
+
+            <br>
+            <br>
+        
+            <h2>Thought Experiments</h2>
+            <p>
+                One thing I'm constantly fascinated with are <b>thought experiments.</b> I've always loved thinking about
+                hypotheticals and theoreticals, especially when they dive deep into the human condition. 
+                <br>My favorite two are The <a href="https://libraryofbabel.info/browse.cgi" target="_blank">Library of Babel</a> and Roko's Basilisk.
+                <br>One day, I will come up with my own thought experiments >:)
+            </p>
+            <br>
+            <br>
+            
+            <h2>The Sobaverse</h2>
+            <p>The Sobaverse is my second biggest <b>world building project.</b></p>
+            <p>Journey across the Four Realms with Sir Spook and his best friend (and former rival), Sir I. Scream!</p>
+            <p><i>More info on the Sobaverse is coming soon...</i></p>
+            <br><br>
+
+            <h2>Jellyfish</h2>
+            <p>Although I have absolutely no proof (yet), I am 100% convinced that
+                jellyfish are <b>NOT of Earthly origins.</b> I mean, they are sentient
+                plastic bags of <b>nothing</b> that glow in the dark, float through the water, 
+                can eat fish, and yet they don't have a <b>brain.</b> How?! Not to mention, they
+                look incredibly creepy, with their long, thin tendrils and bulbous, blob heads.
+                No, they are definitely aliens, and <b>I intend to prove it.</b>
+            </p>
+            <br><br>
+            <h2>Puzzles</h2>
+            <p>I'm a HUGE fan of <b>puzzles, riddles, escape rooms, secret messages,</b> all things of that nature.</p>
+            <p>Say, I wonder what happens when you click on that owl icon? Some kind of secret <a id="hidden" onclick="askCode();">code</a>?</p>
+            <br><br>
+
+            <h2>Favorites</h2>
+            <p><b>Favorite Movie (Live Action):</b> Baby Driver</p>
+            <p><b>Favorite Movie (Animated):</b> Puss in Boots: The Last Wish</p>
+            <p><b>Favorite Game (Digital):</b> The Elder Scrolls V: Skyrim</p>
+            <p><b>Favorite Game (Analog):</b> Unstable Unicorns</p>
+            <p><b>Favorite Show (Live Action):</b> Lucifer</p>
+            <p><b>Favorite Show (Animated):</b> Avatar: The Last Airbender</p>
+            <p><b>Favorite Anime (Action):</b> Akame ga Kill</p>
+            <p><b>Favorite Anime (Slice of Life):</b> My Teenage Romantic Comedy is Wrong, As I Expected</p>
+            <p><b>Favorite Song:</b> Dream On / Carol of the Bells (Tie)</p>
+            <p><b>Favorite Music:</b> Beethoven Virus</p>
+            <p><b>Favorite Food:</b> Pesto Pasta</p>
+            <p><b>Favorite Holiday:</b> Halloween</p>
+            <p><b>Favorite Animal (Non-fictional):</b> Owl</p>
+            <p><b>Favorite Animal (Fictional):</b> Dragon</p>
+           
+           
+        </div>
+    </div>
+    </center>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
+
+<!-- 
+<p style="text-align: left; margin-top: 1em;">Mythos is my most recent project, and I'm looking to go big with it. Up until now, all my tabletop games have been made as a hobby. With this game, I am planning a Kickstarter campaign so that I can break way into the 
+    tabletop industry. I made Mythos completely from scratch on my own, with some help from my family and friends for play testing and consulting.
+</p>
+<p style="text-align: left;">Mythos is a competitive, party-building card game where the player creates an army of deities and mythical
+    entities from religions and cultures from all around the world, and battle to see who can power up to victory.</p>
+  <p style="text-align: left;">Some of the origins include Indian, Mayan, and Egyptian Mythology, Western Astrology, Tarot, the Chinese Zodiac,
+    and more. The game focuses on gradually developing board states, and is designed to highly encourage setting up
+    deadly combos and planning your tactics. A special thing to note is that there is only ONE type of card in the deck: the
+    entities. Each of the 112 cards is a unique unit that you may summon into your party, and each one of those comes with their
+    own special abilities that are heavily inspired by their roles in the culture they are from. </p><p style="text-align: left;">With countless powerful deities,
+    trap cards, alternate win conditions, and table-turning abilities, no two games of Mythos will be the same...
+</p> -->
+
+  <!-- <h1 id="whyGaming">WHY GAMING?</h1>
+        <p>
+            Games! I love gaming and all things gaming related. I have been playing games since I was young, my first real game being 
+            Pokemon Leaf Green on the Nintendo Gameboy. Since then, my passion for games has only grown, extending into virtually every
+            genre there is; Horror, fantasy RPGs, rhythm games, strategy games, first person shooters, CCGs, the list goes on and on. 
+        </p>
+        <br>
+        <p>
+            Of course, I definitely have my favorites. Among those are Minecraft by Mojang, Subnautica by Unknown Worlds, Apex Legends by Respawn Entertainment, and 
+            Legends of Runeterra by Riot Games. But the cream of the crop for me, and the game that actually jumpstarted my interest in going into this industry was 
+            The Elder Scrolls V: Skyrim, by Bethesda. Without going on too long about why I love it so much, I will just say that the way it combined 
+            gameplay, game design, and storytelling to create one glorious free roam RPG was something I truly admired. 
+        </p>
+        <br>
+        <p>
+            Of course, Skyrim wasn't the first game to do these things, and it certainly isn't the game to have done these things best. However, it <i>was</i> the first game 
+            that <i>I played</i> that did these things...and following that game, I became more and more intrigued with the idea of being able to create a whole world,
+            a whole universe, and then tell the story of that universe through something as immersive and interactive as a video game. And thus, I began to <a id="hidden" onclick="askCode();">code.</a>
+        </p>
+        <br><br>   -->

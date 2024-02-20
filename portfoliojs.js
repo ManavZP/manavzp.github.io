@@ -244,3 +244,4 @@ if(w > 767.5){
     sr.reveal(".vgSec", {reset: true});
     sr.reveal(".mmgSec", {reset: true});
 }
+
