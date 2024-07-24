@@ -299,7 +299,7 @@ a:focus{
 
 
 /*test display*/
-/*HAVE TO CHANGE THE BACKGROUND SIZE WHEN PUTTING IN A COVER PHOTO*/
+/*HAVE TO CHANGE THE BACKGROUND SIZE WHEN PUTTING IN A COVER PHOTO FROM THE CHIBI*/
 
 .cover{
     transition: .5s all ease-in-out;
@@ -308,6 +308,123 @@ a:focus{
 .cover:hover{
     transform: scale(1.25);
     overflow: hidden;
+}
+.cover#grudge2:hover{
+    background-image: url(scurryCoverInfo.png);
+}
+.cover#blackwater:hover{
+    background-image: url(blackwaterCoverInfo.png);
+}
+.cover#showman2:hover{
+    background-image: url(gghsCoverInfo.png);
+}
+.cover#mythos:hover{
+    background-image: url(mythosCoverInfo.png);
+}
+.cover#df:hover{
+    background-image: url(darkFrontierCoverInfo.png);
+}
+.cover#showman:hover{
+    background-image: url(dogdog1Info.png);
+}
+.cover#killbill:hover{
+    background-image: url(dogdog2Info.png);
+}
+#blackwater{
+    background-image: url(blackwaterCover.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mythos{
+    background-image: url(mythosCover.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#df{
+    background-image: url(darkFrontierCover.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#willow{
+    background-image: url(willowCover.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#souls{
+    background-image: url(soulsCover.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#poison{
+    background-image: url(poisonCover.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#hhx{
+    background-image: url(hhxCover.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/*untitled games */
+#untitledSpaceGame{
+    background-image: url(untitledCovers/untitledSpaceGameCover.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#untitledPirateGame{
+    background-image: url(untitledCovers/untitledPirateGameCover.png);
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 #showman{
@@ -378,7 +495,7 @@ a:focus{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 #getout2{

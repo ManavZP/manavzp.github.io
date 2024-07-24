@@ -155,6 +155,9 @@ function nextPage(){
             ab2j3yf76ox2j9djwuxmlpi0988n49sfoyv4aet25yayjkqxes4gi7vpltd65g97qet3zfj20ltmzyn932f8aag1n27u95pj09ao3xv3w562q\
             ycm4378b46rtkjfg7afk9y3so94rnkxd7aw363ax2iq2byxmclmgl7asz8hf5q5etna0wov3fgq8 - 1-5-16-300";
         }
+        if(stage === 4){
+            document.getElementById("ToBeContinued").innerHTML = "To Be Continued..."
+        }
 
 }
 
